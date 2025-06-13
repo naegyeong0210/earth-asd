@@ -1,0 +1,56 @@
+{
+    "SATURN": {
+      "MIDDLECONF": {
+        "DMRSURL": "dms-svc.familycare.svc.cluster.local.:1040",
+        "XMLNAME": "ASD",
+        "APPNAME": "ASD"
+      },
+      "TCRSUrl": "http://dev-tcrs.couponwallet.co.kr:10017/"
+    },
+    "BENTLEY": {
+      "MIDDLECONF": {
+        "DMRSURL": "http://dev-dmrs.couponwallet.co.kr",
+        "XMLNAME": "ASD",
+        "APPNAME": "ASD"
+      },
+      "TCRSUrl": "http://dev-tcrs.antiscam.co.kr:20010/"
+    },
+    "TESLA": {
+      "MIDDLECONF": {
+        "DMSURL": "dms-svc.familycare.svc.cluster.local.:1040",
+        "XMLNAME": "ASD",
+        "APPNAME": "ASD"
+      },
+      "TCRSUrl": "http://dev-tcrs.familycare.co.kr:10015/"
+    },
+    "BENZ": {
+      "MIDDLECONF": {
+        "DMRSURL": "https://dev-dmrs.autocall.ai",
+        "XMLNAME": "ASD",
+        "APPNAME": "ASD"
+      },
+      "TCRSUrl": "http://dev-tcrs.autocall.ai:10014/"
+    },
+    "FERRARI": {
+      "MIDDLECONF": {
+        "DMRSURL": "http://dev-dmrs.mfinder.co.kr:30030",
+        "XMLNAME": "ASD",
+        "APPNAME": "ASD"
+      },
+      "TCRSUrl": "http://dev-tcrs.mfinder.co.kr:10010/"
+    },
+    "DelaySecSKT": 1000,
+    "DelaySecKT": 1000,
+    "DelaySecLGUP": 1000,
+    "MaxMemberList": 100,
+    "SKTProcess": true,
+    "KTProcess": false,
+    "LGUPProcess": false,
+    "SaturnProcess": false,
+    "BentleyProcess": false,
+    "BenzProcess": false,
+    "TeslaProcess": false,
+    "FerrariProcess": true,
+    "LogerfilePath": "/app/log/saturn_pcrs_%Y%m%d.log"
+  }
+  
